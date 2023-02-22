@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li, a{
+  list-style: none;
+  text-decoration: none;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 8vh;
+  background-color: rgb(255, 255, 255,0);
+  font-family: 'Poppins',sans-serif;
+}
+
+.logo a{
+  text-decoration: none;color: black;
+}
+.logo h1 span{
+  color: #367d91;
+}
+.logo {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-right: auto;
+  margin-left: 2%;
+}
+.logo h1{
+  color:rgb(0, 0, 0);
+  font-size: 21px;
+  font-weight:800;
+}
+.logo a:hover{
+  cursor: pointer;
+  
+}
+.navBar{
+display: flex;
+justify-content: space-around;
+width: 20%;
+margin-right: 7%;
+
+
+}
+.navBar a{
+  color: rgb(3, 0, 0);
+  font-size: 16px;
+  font-weight:700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border-right: 2px solid black;
+  
+
+}
+.navBar a:hover{
+  transition: all 0.3s ease 0s;
+ color: rgb(55, 152, 129);
+}
+.nav button{
+  height: 100px;
+  margin-right: 100px;
+  position: absolute;
+}
+
+@media screen and (max-width:1024px) {
+  .navBar{
+    width: 60%;
+    }
+    .navBar a{
+      font-size: 13px;
+    }
+    .logo h1{
+      color: black;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size:12px;
+      width: 100px;
+    
+    }
+}
+ 
+.form {
+  height: 550px;
+  width: 380px;
+  background-color: rgba(250, 249, 252, 0.877);
+  position: absolute;
+  transform: translate(99%, -47%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 45px 35px;
+}
+.form span{
+  color:#4084a5; ;
+}
+
+.form h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+ 
+  color: #020202;
+  letter-spacing: 2px;
+ 
+  font-weight: bold;
+ 
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.form h3 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: center;
+}
+.form h5 {
+  color: black;
+}
+.form h4 a:hover {
+  color: #2b73dfaf;
+  transition: 0.7s ease;
+}
+.form h5 a:hover {
+  color: #2b73dfaf;
+  transition: 0.7s ease;
+}
+
+.logBtn{
+  
+  border: none;
+  height: 56px;
+  margin-top: 50px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: #4084a5;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.logBtn:hover {
+  color: rgb(0, 0, 0);
+  background: #2b73dfaf;
+  transition: 0.9s ease;
+}
+.logBtn a:hover {
+  color: rgb(0, 0, 0);
+  
+  transition: 0.9s ease;
+}
+.form a{
+color: white;
+width: 100px;
+}
+.content h1{
+  margin-top: 10%;
+  margin-left: 5%;
+  font-size: 30px;
+  font-weight: bolder;
+  color: black;
+}
+.content h1 span{
+  color: #367d91;
+}
+.content p{
+  margin-left: 5%;
+  font-size: 23px;
+  width: 400px;
+  color: black;
+
+}
+.content p button{
+  border: none;
+  width: 180px;
+  border: none;
+  border-radius: 7px;
+  background-color: #367d91;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 37px;
+  margin-left: 3%;
+  transform: translateY(-7%);
+}
+.content p button:hover{
+  cursor: pointer;
+  background-color: rgb(95, 146, 153);
+  transition:ease-in-out 0.6s ;
+  font-weight: 700;
+}
+@media screen and (max-width:600px){
+  .form {
+    height: 520px;
+    width: 330px;
+    background-color: rgba(250, 249, 252, 0.877);
+    position: absolute;
+    transform: translate(-45%, -60%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 45px 35px;
+  }
+
+  .form h1 {
+    font-size: 19px;
+  }
+  .form h3 {
+    font-size: 15px;
+  }
+   
+    label {
+      font-size: 13px;
+    }
+   
+    button {
+      font-size: 14px;
+    }
+    .form h4{
+      font-size: 12px;
+    }
+    .content {
+      transform: translateY(370%) ;
+    }
+}
+
+@media screen and (max-height:690px){
+  .form {
+    height: 520px;
+    width: 330px;
+    background-color: rgba(250, 249, 252, 0.877);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 45px 35px;
+  }
+
+  .form h1 {
+    font-size: 19px;
+  }
+  .form h3 {
+    font-size: 15px;
+  }
+   
+    label {
+      font-size: 13px;
+    }
+   
+    button {
+      font-size: 14px;
+    }
+    .form h4{
+      font-size: 12px;
+    }
+    .content {
+      transform: translateY(370%) ;
+    }
+}
+.userData{
+  border: none;
+text-align: left;
+  width: 215px;
+  float: right;
+  height: 30px;
+  font-weight: 700;
+}
+.userClass
+{
+  font-size: 16px;
+  font-weight: 500;
+}
+.userClass a{
+  color: black;
+}
+.userClass a:hover{
+  color: rgba(91, 177, 143, 0.877);
+}
+.edit a{
+  color: black;
+  text-align: center;
+  
+}
+.edit a:hover{
+  color: #c03737;
+}

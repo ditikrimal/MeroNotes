@@ -1,0 +1,2 @@
+#ErrorForHTACCESS
+ErrorDocument 404 http://localhost/demosite3fnl/404.html
